@@ -29,7 +29,6 @@ function inputSearch(e) {
         return;
     }
 
-
 fetchCountries(searchCountries)
         .then(result => {
             if (result.length > 10) {
